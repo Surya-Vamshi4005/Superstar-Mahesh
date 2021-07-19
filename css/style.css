@@ -1,0 +1,171 @@
+/*
+ * General Styles
+*/
+
+
+body {
+  background: #8B4513;
+  font-family: 'Open Sans', arial, sans-serif;
+}
+
+html
+{
+  font-size: 100%;
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.75;
+  margin-bottom: 28px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+/*
+ * Heading Styles
+*/
+
+
+
+h1{
+  font-family: 'Lobster', cursive;
+  color: #8B4513;
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 40px;
+}
+
+h2{
+  font-family: 'Lobster', cursive;
+  color: white;
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 32px;
+}
+
+
+/*
+ * Container Styles
+*/
+
+.container {
+  width: 600px;
+  margin: 100px auto;
+}
+
+.container section:nth-child(even)
+{
+  background: white;
+}
+
+.container section:nth-child(odd)
+{
+  background: #8B4513;
+}
+
+.contact
+{
+  border: 15px solid white;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+section.intro, section.contact
+{
+  padding: 40px;
+}
+
+.hero img
+{
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.hero
+{
+  line-height: 0;
+}
+
+aside.left
+{
+  float: left;
+  padding-top: 0px;
+}
+
+aside.right
+{
+  float: right;
+}
+
+aside.right img
+{
+  border-radius: 30px;
+}
+
+aside.left img
+{
+  width: 200px;
+  height: 300px;
+  border-radius: 40px;
+}
+aside
+{
+  margin-right: 1rem;
+  padding: 15px;
+  margin-bottom: 0.625rem;
+}
+
+.downcontact
+{
+  color: white;
+  font-style: italic;
+  margin-top: 80px;
+}
+
+.downcontact a
+{
+  text-decoration: none;
+  color: #d6973a;
+}
+
+.downcontact a:hover
+{
+  text-decoration: underline;
+}
+
+.footer
+{
+  margin: 20px;
+  font-size: 1.3rem;
+  font-family: monospace;
+  color: white;
+}
+
+.footer a 
+{
+  text-decoration: none;
+  color: #d6973a;
+}
+
+.footer a:hover
+{
+  text-decoration: underline;
+}

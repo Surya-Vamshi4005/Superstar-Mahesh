@@ -1,0 +1,35 @@
+
+.container
+{
+  width: 100%;
+  margin: 0px;
+}
+
+.hero img
+{
+  border-radius: 0;
+}
+
+.contact
+{
+  border-radius: 0;
+}
+
+.downcontact
+{
+  margin: 0;
+}
+
+aside.left, aside.right
+{
+  /*Here we should use float inherit once again otherwise the images will not come to center just by text align*/
+  /*Also it should be very specific to those classes itself*/
+  text-align: center;
+  float: inherit;
+}
+
+.intro p, .contact p, .contact address
+{
+  text-align: center;
+  padding-left: 10px;
+}
